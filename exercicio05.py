@@ -13,6 +13,6 @@ while novocal== "s":
         print("obesidade grau I")
     elif imc >=35.0 and imc<=39.9:
         print ("obesidade grau II (severa)")
-    elif imc >=40:
+    else:
         print ("obesidade grau III (morbida)")
     input("deseja fazer um novo teste?")
